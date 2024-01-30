@@ -185,7 +185,7 @@ Damit ein Deadlock entstehen kann müssen vier Bedingungen entstehen:
 - **No Preemtion:** Ressourcen können einem Thread nicht (gewaltsam) entzogen werden
 - **Circular Wait** Es existiert eine zirkuläre Beziehung zwischen Threads, die eine oder mehrere Ressourcen blockieren, die von anderen Threads in dieser Kette angefordert werden (vgl. Grafik zuvor)
 
-> Anders ausgedrückt: trifft eine der Bedingungen nicht zu, kann kein Deadlock entstehen, das kann helfen, wenn man versucht Deadlocks zu vermeiden. Wir müssen nämlich nur eine er vier Bedingungen auflösen!
+> Anders ausgedrückt: trifft eine der Bedingungen nicht zu, kann kein Deadlock entstehen, das kann helfen, wenn man versucht Deadlocks zu vermeiden. Wir müssen nämlich nur eine der vier Bedingungen auflösen!
 
 ************************************
 
@@ -212,7 +212,7 @@ Einfache und weit verbreitet Methode:
 FreeBSD nutzt Partial Ordering bei allen Locks unter folgenden Bedingungen [2]:
 
 1. „A thread may acquire only one lock in each class.“
-2. „A thread may axquire only a lock in a higher-numbered class that the highest-numbered class for which it already holds a lock.“
+2. „A thread may acquire only a lock in a higher-numbered class that the highest-numbered class for which it already holds a lock.“
 
 Der FreeBSD Kernel hat zur Überwachung der Locks, der Reihenfolge und dem Debugging hierfür ein eigenes Modul (engl. witness modue).
 
