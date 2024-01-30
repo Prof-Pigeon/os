@@ -178,7 +178,7 @@ int pthread_join(pthread_t thread, void **value_ptr);
 
 * `pthread_t`
 
-  * Spezifiziert den Thread, auf den gestartet wird 
+  * Spezifiziert den Thread, auf den gewartet wird 
 
 * `value_ptr`
 
