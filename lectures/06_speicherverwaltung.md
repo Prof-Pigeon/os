@@ -81,7 +81,7 @@ Wie gehen wir mit großen Adressräumen um?
 | --- | --- | --- |
 |Code|32K|2K|
 |Heap|34K|3K|
-|Segment|28K|2K|
+|Stack|28K|2K|
 
 ![](../img/os.10.segmentierung.de.png)
 
@@ -105,7 +105,7 @@ Beispiel:
 Berechnung: 
 
 * Offset + Base-Register: physikalische Speicheradresse 
-* Zum Prüfen der Obergrenze, wir die Größe hinzuaddiert
+* Zum Prüfen der Obergrenze, wird die Größe hinzuaddiert
 
 ![](../img/os.10.segment_bsp.de.png)
 
@@ -118,7 +118,7 @@ Berechnung:
   * Hardware-Support durch zusätzliches Protection-Bit
   * Segment kann somit in mehreren virtuellen Adressräumen genutzt werden
  
-|Segment|Base|Gräße (max. 4K)|Wächst pos.|Schutz|
+|Segment|Base|Größe (max. 4K)|Wächst pos.|Schutz|
 |---|---|---|---|---|
 |Code|32K|2K|1|Read-Execute|
 |Heap|34K|3K|1|Read-Write|
