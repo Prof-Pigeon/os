@@ -236,7 +236,7 @@ First in, First out (abk. FIFO) oder manchmal auch First Come, First Serve (abk.
 
 ************************************
 
-### Shortes Job First
+### Shortest Job First
 
 * Shortest Job first (Abk. SJF)
 * Beschreibt die Policy recht treffend 
