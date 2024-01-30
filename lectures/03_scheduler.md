@@ -85,7 +85,7 @@ Wenn ein Programm im *User Mode* etwas ausführen möchte, das eigentlich unters
 
 Das Programm... 
 
-* Führt ein sog. Trap-Instruktion aus
+* Führt eine sog. Trap-Instruktion aus
 * Springt in Kernel und startet im privilegierten Modus (Kernel Modus)
 * Führt die Operationen aus, die im »System Call Handler« hinterlegt sind
 * Führt eine sog. Return-From-Trap-Instruktion aus
