@@ -259,7 +259,7 @@ strcpy (dst, scr);
 * Ein Klassiker
 * Hatten wir schon einmal zu Beginn der Vorlesungsreihe
 * Herzlichen Glückwunsch, Sie haben ein Speicherleck (engl. memory leak) gebaut 🤦‍♂️
-* Kann man auch bei höheren Programmiersprachen erreichen, indem Referenzen nicht »aufgeräumt« wer
+* Kann man auch bei höheren Programmiersprachen erreichen, indem Referenzen nicht »aufgeräumt« werden
 
 ************************************
 
@@ -405,7 +405,7 @@ Wenn Prozess versucht außerhalb des virtuellen Adressraums auf Speicher zuzugre
 
  **Herausforderungen**
 
-* Bei Prozessstart muss das Betriebssystem einen geeigneten freier Speicherbereich finden und allozieren
+* Bei Prozessstart muss das Betriebssystem einen geeigneten freien Speicherbereich finden und allozieren
 * Bei Prozessende (freiwillig oder anderweitig) muss der Speicher wieder in die Liste mit freiem Speicher eingetragen werden, Datenstrukturen etc. sollten aufgeräumt werden
 * Beim Context Switch müssen Base- und Bounds-Register weggespeichert bzw. wiederhergestellt werden (Vereinfachte Annahme: alle Prozesse liegen im Speicher)
 * Wird ein Prozess im Speicher re-alloziert, muss der Prozess vorübergehend gestoppt werden
