@@ -106,7 +106,7 @@ Wie kann das funktionieren?! Das schauen wir auf den folgenden Beispielen an!
 **Nützliche Informationen:** 
 
 - Der negative Wert einer Semaphore gibt die Nummer der wartenden Threads an. 
-- Der Initialisierungswert einer Semaphore gibt die Anzahl an Ressourcen an, die wir initial „hergeben“ möchten (oder kkönnen) 
+- Der Initialisierungswert einer Semaphore gibt die Anzahl an Ressourcen an, die wir initial „hergeben“ möchten (oder können) 
 
 ************************************
 
@@ -129,7 +129,7 @@ Wie kann das funktionieren?! Das schauen wir auf den folgenden Beispielen an!
 - Thread T0 hat `sem_post()` noch nicht aufgerufen (wurde vorher vom SCheduler unterbrochen oder T1 läuft auf einem anderen Kern) und Thread T1 versucht nun das Lock zu erhalten
 - Thread T1 verringert den Wert der Semaphore auf -1 und wartet (-1 signalisiert, es ist keine Ressource mehr frei)
 - Wenn Thread T0 irgendwann wieder ausgeführt wird und fertig wird, wird durch den Aufruf von `sem_post()` der Wert der Semaphore auf 0 erhöht und ein anderer Thread (in unserem Fall Thread T1) aufgeweckt
-- Thread T1 kann das Lock nun erhalte (der Wert ist ja auf 0) und ruft nach Beendigung `sem_post()` auf und setzt somit den Wert der Semaphore wieder auf 1
+- Thread T1 kann das Lock nun erhalten (der Wert ist ja auf 0) und ruft nach Beendigung `sem_post()` auf und setzt somit den Wert der Semaphore wieder auf 1
 
 {{1}}
 ************************************
@@ -145,7 +145,7 @@ Wie kann das funktionieren?! Das schauen wir auf den folgenden Beispielen an!
 
 ## Semaphoren zur Signalisierung
 
-> Semaphoren können auch genutzt werden, um mehrer Threads zu synchronisieren
+> Semaphoren können auch genutzt werden, um mehrere Threads zu synchronisieren
 
 Prinzip: ein Thread wartet darauf, dass etwas passiert, ein anderer kümmert sich darum, dass etwas passiert und signalisiert am Ende etwas dem anderen Thread. 
 
