@@ -25,7 +25,7 @@ comment:
 | **Veranstaltung:** | `262007 Betriebssysteme`|
 | **Semester** | `SEB2` |
 | **Hochschule:** | `Hochschule Heilbronn` |
-| **Inhalte:** | `Hard Disks|
+| **Inhalte:** | `Hard Disks`|
 | Startseite | [https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/README.md#1](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/os/master/README.md#1) | 
 | **Link auf den GitHub:** | [https://github.com/aheil/os/blob/main/lectures/10_1_harddisks.md](https://github.com/aheil/os/blob/main/lectures/10_1_harddisks.md) |
 | **Autoren** | @author |
