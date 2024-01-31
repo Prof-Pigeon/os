@@ -126,7 +126,7 @@ Nur die ersten drei Blöcke wurden geschrieben, obwohl der Stromausfall erst seh
 * Rotational Delay oder auch Rotational Latency – Zeit bis sich der gesuchte Sektor unter dem Schreib-Lese-Kopf befindet 
 * Eine vollständige Umdrehung dauert $R$ 
 * Suchen wir Sektor 0 und starten bei Sektor 6, ist das Delay $R/2$
-* Der Worst-Case wäre im Beispiel zuvor ein Start bei 5, hier wird fast eine ganze Rotation benötigt und das Delay beträgt somit fast $R$
+* Der Worst-Case wäre im Beispiel zuvor ein Start bei 1, hier wird fast eine ganze Rotation benötigt und das Delay beträgt somit fast $R$
 
 ************************************
 
