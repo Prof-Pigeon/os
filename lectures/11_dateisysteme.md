@@ -36,7 +36,7 @@ Den Aufbau von Hard Disk Drives und RAID-Systemen **kennen lernen** und die Prin
 
 ## Datenpersistenz
 
-* Hard Disk Drives (dt. Festplatten sind die seit Jahrzehnten am weit verbreitetsten Art Daten zu speichern
+* Hard Disk Drives (dt. Festplatten sind die seit Jahrzehnten am weit verbreitetste Art Daten zu speichern
 * Dateisysteme hängen dabei stark von den darunterliegenden Geräten ab
 
   * Wie speichern moderne Hard Disks überhaupt Daten ab?
@@ -56,7 +56,7 @@ Der Aufbau ist im Grundprinzip immer ähnlich
   (i.d.R. in Form von 512-Byte Blöcken)
 * Jeder Block kann individuell gelesen und geschrieben werden
 * Alle Sektoren sind nummeriert 0 bis $n−1$ (bei $n$ Sektoren) 
-* Multi-Sektor-Operationen sing möglich (und gängig)
+* Multi-Sektor-Operationen sind möglich (und gängig)
 * Viele Dateisysteme lesen 4KB oder mehr auf einmal 
 * Atomare Schreiboperationen sind nur auf 512-Byte Blöcke zugesichert 
 
